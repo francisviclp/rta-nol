@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#accordion {
+	margin: 4% 0 0 0;
+}
+
+#accordion h4 {
+	text-transform:capitalize;
+	text-decoration: underline;
+	font-size: 1.1em;
+	line-height: 120%;
+	font-weight:bold;
+	margin: 8% 0 0 0;
+	color: #CC386C;
+}
+
+#accordion h4:first-child {
+	margin-top: 2%;
+}
+
+.accordion-toggle {
+	margin: 4% 0 2% 0;
+	font: .9em/125% 'effra-bold', sans-serif;
+}
+
+.accordion-toggle::before {
+	content: '“';
+	color: #575757;
+}
+
+.accordion-toggle::after {
+	content: '”';
+	color: #575757;
+}
+
+.accordion-content p {
+    font-style: italic;
+	padding: 0 2% 0 2%;
+	color:#575757;
+}
